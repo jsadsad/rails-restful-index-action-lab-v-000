@@ -401,3 +401,11 @@ Processing by StudentsController#index as HTML
 Completed 200 OK in 390ms (Views: 385.5ms | ActiveRecord: 1.4ms)
 
 
+Started GET "/students" for 73.92.255.188 at 2019-06-28 02:25:38 +0000
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.2ms)
+
+
